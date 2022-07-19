@@ -1,0 +1,176 @@
+body{
+    height: 100%;
+    background-size: cover;
+    background-color: lightgoldenrodyellow;
+    background-position: center;
+    
+    }
+
+
+
+
+h2{
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    font-style: bold;
+    
+}
+
+.my-info{
+
+    padding-bottom: 10px;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: pink;
+    color: #fff;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+.city{
+    padding: 5px;
+    background-color: chocolate;
+    text-align: right;
+    width: 100%;
+    border-bottom: 3px solid palevioletred;
+    height: 150px;
+    
+}
+
+.btn-info:hover{
+    background-color: pink;
+}
+
+a{
+    color: goldenrod;
+    size: 50%;
+    margin: 5px;
+    padding: 3px;
+    text-align: right;
+    size: 500px;
+}
+b{
+    font-size: 40px;
+    display: inline-block;
+    color: orange;
+
+}
+b:hover{
+    display: inline-block;
+    border: 2px sollid rgb(159, 219, 75);
+    transform: scaleX(1);
+    text-decoration: underline;
+    font-size: 45px;
+    transition: all .5s ease-in-out ;
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: plum;
+
+}
+h1:hover{
+    font-size: 63px;
+    transition: all .5s ease-in-out ;
+
+}
+.city{
+    padding: 5px;
+    background-color: chocolate;
+    text-align: right;
+    width: 100%;
+    border-bottom: 3px solid palevioletred;
+    height: 150px;
+    
+}
+#part1{
+    text-align: right;
+    padding-right: 20px;
+    
+}
+
+b{
+    
+    font-size: large;
+    text-align: right;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color:black;
+    color: aliceblue;
+    display: inline-block;
+    padding: 5px 15px;
+    
+}
+
+b:hover{
+    display: inline-block;
+    transform: scaleX(1);
+    text-decoration: underline;
+    font-size: 30px;
+    transition: all .5s ease-in-out ;
+    border: 2px solid white;
+
+}
+.city h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: palevioletred;
+}
+.city h1:hover{
+    text-decoration: underline;
+}
+
+thead{
+    background-color: coral;
+    color: black;
+}
+#part1{
+    background-color: #f4511e;
+    width: 100px;
+    height: 50px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
